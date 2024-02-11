@@ -25,3 +25,4 @@ Please check example_plugin_a.py for instructions regarding plugin development.
 
 Everyone is encouraged to contribute with plugins as this will help AURORA to reach its mission, to become the most comprehensive collection of Statistics and Machine Learning tools available for everyone, for free.
 
+For publishing a plugin please check www.mariusneagoe.com
