@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
+
+#####################################################
+#### Package: Aurora
+#### Version: 0.1
+#### Author: Marius Neagoe
+#### Website: https://mariusneagoe.com
+#### Github: https://github.com/MariusNea/Aurora
+#####################################################
+
 import tkinter as tk
 from tkinter import ttk, StringVar
 from tkinter import messagebox

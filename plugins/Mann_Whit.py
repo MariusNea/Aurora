@@ -1,4 +1,16 @@
 # plugins/plugin_a.py
+
+
+#####################################################
+#### Package: Aurora
+#### Plugin: Mann-Whitney U Test
+#### Version: 0.1
+#### Author: Marius Neagoe
+#### Website: https://mariusneagoe.com
+#### Github: https://github.com/MariusNea/Aurora
+#####################################################
+
+
 from scipy.stats import mannwhitneyu
 from tkinter import messagebox
 import tkinter as tk

@@ -1,5 +1,14 @@
 #plugins/pca.py
 
+#####################################################
+#### Package: Aurora
+#### Plugin: Principal Component Analysis
+#### Version: 0.1
+#### Author: Marius Neagoe
+#### Website: https://mariusneagoe.com
+#### Github: https://github.com/MariusNea/Aurora
+#####################################################
+
 import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler

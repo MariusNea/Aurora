@@ -5,6 +5,17 @@
 # Plugins need to specify their category ('statistics' or 'machine_learning') when using the register_plugin decorator.
 # The code can use "app.get_dataframe()" method to access the main dataframe from AURORA.
 
+
+#####################################################
+#### Package: Aurora
+#### Plugin: Test plugin
+#### Version: 0.1
+#### Author: Marius Neagoe
+#### Website: https://mariusneagoe.com
+#### Github: https://github.com/MariusNea/Aurora
+#####################################################
+
+
 def register(app):
     @app.register_plugin('category', 'stats_test', 'Perform Stats Test')
     def stats_test():
