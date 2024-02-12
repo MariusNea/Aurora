@@ -29,3 +29,5 @@ decision-making processes.
 Join us on our journey to make data analysis and machine learning more user oriented.
 
 For publishing a plugin please check www.mariusneagoe.com
+
+You can download an working example from https://mariusneagoe.com/aurora-2/. There is no need to install anything.
