@@ -1,4 +1,4 @@
-AURORA - Accessible User-friendly Resources for Optimized Research Analytics - aims to be the most comprehensive collection of Statistics and Machine Learning tools, applicable to various domains such as engineering, manufacturing, retail, and others, for addressing specific problems effectively.
+AURORA - Accessible User-friendly Resources for model Optimization using Refined Algorithms - aims to be the most comprehensive collection of Statistics and Machine Learning tools, applicable to various domains such as engineering, manufacturing, retail, and others, for addressing specific problems effectively.
 
 The process commences with a .csv file containing the requisite information, which is initially imported as a dataframe into AURORA. Subsequently, all models are applied based on this dataframe.
 

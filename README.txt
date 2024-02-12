@@ -1,4 +1,4 @@
-AURORA - Accessible User-friendly Resources for Optimized Research Analytics
+AURORA - Accessible User-friendly Resources for model Optimization using Refined Algorithms
 
 Welcome to Aurora, a specialised toolkit designed to empower data analysts and machine learning enthusiasts with a comprehensive suite of tools. 
 At its core, Aurora aims to democratize data analysis by providing a user-friendly platform where individuals from all backgrounds can harness the power of 

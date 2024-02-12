@@ -11,6 +11,7 @@
 #### Plugin: Test plugin
 #### Version: 0.1
 #### Author: Marius Neagoe
+#### Copyright: © 2024 Marius Neagoe
 #### Website: https://mariusneagoe.com
 #### Github: https://github.com/MariusNea/Aurora
 #####################################################
