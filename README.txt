@@ -30,4 +30,4 @@ Join us on our journey to make data analysis and machine learning more user orie
 
 For publishing a plugin please check www.mariusneagoe.com
 
-You can download an working example from https://mariusneagoe.com/aurora-2/. There is no need to install anything.
+You can download and run the executable from https://mariusneagoe.com/aurora-2/.
