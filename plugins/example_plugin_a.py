@@ -1,5 +1,4 @@
-# plugins/statistics_plugin.py
-# this plugin can be accessed from Statistics menu inside AURORA's GUI
+# plugins/example_plugin_a.py
 # The MyApp class now supports creating two separate menu categories: "Statistics" and "Machine Learning".
 # The register_plugin method requires a category argument to determine under which menu the plugin should be registered.
 # Plugins need to specify their category ('statistics' or 'machine_learning') when using the register_plugin decorator.
@@ -23,7 +22,8 @@ def register(app):
        
 		# You can add your code here
         print("Running a statistics or machine learning test...")
-		
+
+# category - replace this with 'statistics' or 'machine_learning'	
 # stats_test - is function's name.
 # "Perform Stats Test" - is the text that will apear in AURORA's GUI
 
