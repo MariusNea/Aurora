@@ -497,7 +497,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
     def delete_column(self):
         column_name = simpledialog.askstring("Input", "Enter column name to delete:", parent=self.root)
-        if column_name and column_name in self.df.columns:
+        if column_name and column_name in self.dataframe.columns:
         # Drop the column from the DataFrame
             self.dataframe.drop(columns=[column_name], inplace=True)
         
