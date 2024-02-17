@@ -1,33 +1,21 @@
 AURORA - Accessible User-friendly Resources for model Optimization using Refined Algorithms
 
-Welcome to Aurora, a specialised toolkit designed to empower data analysts and machine learning enthusiasts with a comprehensive suite of tools. 
-At its core, Aurora aims to democratize data analysis by providing a user-friendly platform where individuals from all backgrounds can harness the power of 
-statistics and machine learning models, free of charge.
+In today's world, the fields of statistics and machine learning hold immense potential for solving real-world problems and significantly impacting businesses and daily life. However, the complexity and learning curve associated with these fields can be daunting, making it challenging for those interested to effectively utilize these tools. Recognizing this gap, we've developed AURORA, a software solution crafted to make the power of statistical and machine learning models more accessible to everyone.
 
-Aurora offers a wide array of statistical and machine learning tools, ranging from basic descriptive statistics to advanced predictive modeling algorithms. 
-With Aurora, users can explore, analyze, and interpret their data with ease.
+AURORA is designed with the principle that tools like, for example, the Poisson distribution, capable of addressing a diverse range of problems — from optimizing work schedules in retail to managing investment portfolios or enhancing strategies for professional betting — should be within reach of anyone interested in applying scientific methods to their decision-making processes. Our aim is to remove the barriers posed by the need for specialized training, making it easier for individuals to leverage these models in their activities.
 
-One of Aurora's unique strengths lies in its extensibility through plugins. 
-We encourage developers from around the globe to contribute to the plugin ecosystem, thereby expanding Aurora's capabilities and ensuring it remains at the forefront of innovation.
+Features of AURORA:
 
-Designed with simplicity in mind, Aurora eliminates the intimidation factor often associated with data analysis. 
-Whether you're a novice or an expert, Aurora provides an intuitive platform for exploring data and find meaningful models to interpret your data.
+AURORA provides a straightforward interface that guides users through the application of statistical models and machine learning techniques to their specific problems. It's about offering the benefits of data science in a more digestible format, enabling informed decisions based on robust analytics without requiring users to have an advanced understanding of the underlying mathematics.
 
-Future Vision
+Our Mission:
 
-Personalized Model Suggestions
+Our mission with AURORA is to demystify the world of statistics and machine learning, making these powerful tools accessible to a broader audience. We believe in empowering individuals and businesses to explore the potential of data-driven decision-making, without the intimidation factor of complex analytics.
 
-In the future, Aurora aims to incorporate state-of-the-art suggestion systems that recommend the best models tailored to each user's specific needs and preferences. 
-By leveraging advanced algorithms, Aurora will streamline the model selection process, empowering users to make informed decisions effortlessly.
+Our Vision:
 
-Data Gathering Capabilities
+We envision AURORA as a step towards a future where more people can apply scientific models to enhance their decisions, whether in business, personal finance, or day-to-day activities. Our goal is to make the insights gained from statistics and machine learning an integral part of decision-making processes, accessible to those without specialized expertise.
 
-To further enhance its capabilities, Aurora will implement a robust data gathering system capable of collecting data from a diverse range of sources, 
-from web to sensor networks. This seamless integration of data sources will provide users with access to a wealth of information, fueling their analysis and 
-decision-making processes.
-
-Join us on our journey to make data analysis and machine learning more user oriented.
+AURORA is about opening doors to new possibilities through the practical application of scientific models, supporting users in navigating the challenges and opportunities of their specific contexts with greater confidence.
 
 For publishing a plugin please check https://mariusneagoe.com/plugins/
-
-You can download and run the executable from https://mariusneagoe.com/aurora-2/.
