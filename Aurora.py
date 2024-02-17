@@ -143,12 +143,18 @@ class DataFrameEditor:
         # Button to select columns for plotting
         select_button = tk.Button(self.root, text="Select Columns to Plot or Brush", command=self.select_columns)
         select_button.pack(side='right')    
-
+        
+        refresh_button = tk.Button(self.root, text="Refresh Dataframe", command=self.update_frame)
+        refresh_button.pack(side='right')
+        
+        save_button = tk.Button(self.root, text="Save Dataframe", command=self.save_df)
+        save_button.pack(side='right')
+        
         self.tree.bind('<Double-1>', self.on_item_double_click)
         
     def clear_list(self):
         self.sel_list.clear()
-        print(self.sel_list)
+        
     def dummy_function(self):
         summary = self.dataframe.describe()
         result = "Summary Statistics"
@@ -513,8 +519,14 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
     # Setup the Treeview again with the updated DataFrame
         self.setup_tree_view()
-
         
+    def update_frame(self):
+        self.setup_tree_view()
+        
+    def save_df(self):
+        self.dataframe.to_csv('current_dataframe.csv', encoding='utf-8', index=False)
+        messagebox.showinfo("Info", "Your dataframe was saved to current_dataframe.csv in current folder.")     
+    
 def load_plugins(directory: str, app):
     for filename in os.listdir(directory):
         if filename.endswith('.py') and not filename.startswith('__'):
@@ -532,7 +544,8 @@ def load_plugins(directory: str, app):
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.geometry("800x600")
+    root.geometry("1200x680")
+    
     root.iconphoto(False, tk.PhotoImage(file='icon.png'))
     # Use a file dialog to get the initial CSV file path
     initial_file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv")])
