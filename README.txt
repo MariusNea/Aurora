@@ -51,7 +51,7 @@ Outliers (Anomaly) Detection
 
 This plugin uses Isolation Forest algorithm to detect outliers on timeseries. From your dataframe select column on which you want to apply algorithm. The result will be a plot with both inliers(red) and outliers (blue).
 
-Principal ComponentAnalysis (PCA)
+Principal Component Analysis (PCA)
 
 To apply this plugin on your dataframe, the last column must be the target column and others columns must be features columns. The output will be a .csv file with components.
 
