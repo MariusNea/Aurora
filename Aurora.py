@@ -41,12 +41,15 @@ class DataFrameEditor:
         self.menu_bar = tk.Menu(self.root)
         self.root.config(menu=self.menu_bar)
         self.create_menu()
-        
+        self.current_page = 0
+        self.rows_per_page = 100  # Set the number of rows per page
+        self.total_pages = (len(self.dataframe) - 1) // self.rows_per_page + 1
         self.tree = ttk.Treeview(root)
         self.tree.pack(expand=True, fill='both')
 
         self.setup_tree_view()
         self.add_controls()
+        self.add_pagination_controls()
         self.target_col = None
         self.model = None
         self.input_data = None
@@ -106,7 +109,7 @@ class DataFrameEditor:
         menu.add_command(label=text, command=command)
         
     def setup_tree_view(self):
-    # Clear existing columns and rows in the Treeview
+        # Clear existing columns and rows in the Treeview
         for i in self.tree.get_children():
             self.tree.delete(i)
         self.tree["columns"] = list(self.dataframe.columns)
@@ -115,11 +118,32 @@ class DataFrameEditor:
             self.tree.heading(column, text=column)
             self.tree.column(column, anchor='center')
 
-    # Inserting rows from the updated DataFrame
-        for _, row in self.dataframe.iterrows():
+        # Inserting rows from the current page
+        start = self.current_page * self.rows_per_page
+        end = start + self.rows_per_page
+        display_df = self.dataframe.iloc[start:end]
+        for _, row in display_df.iterrows():
             self.tree.insert('', 'end', values=list(row))
 
+    def add_pagination_controls(self):
+        pagination_frame = tk.Frame(self.root)
+        pagination_frame.pack(fill='x', padx=5, pady=5)
+        prev_button = tk.Button(pagination_frame, text="Previous", command=self.prev_page)
+        prev_button.pack(side='left')
+        next_button = tk.Button(pagination_frame, text="Next", command=self.next_page)
+        next_button.pack(side='left')
 
+    def prev_page(self):
+        if self.current_page > 0:
+            self.current_page -= 1
+            self.setup_tree_view()
+
+    def next_page(self):
+        if self.current_page < self.total_pages - 1:
+            self.current_page += 1
+            self.setup_tree_view()
+            
+            
     def add_controls(self):
         add_row_button = tk.Button(self.root, text="Add Row", command=self.add_row)
         add_row_button.pack(side='left')
@@ -469,6 +493,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
         new_value = simpledialog.askstring("Input", f"Enter new value:", parent=self.root)
         if new_value is not None:
             try:
+                new_value = float(new_value)
                 df_index = self.tree.index(item)  # Assuming direct correspondence between Treeview and DataFrame indices
                 if df_index < len(self.dataframe):
                     self.dataframe.iat[df_index, col_index] = new_value  # Update DataFrame
