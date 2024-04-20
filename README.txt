@@ -49,7 +49,7 @@ CSV example:
 
 Outliers (Anomaly) Detection
 
-This plugin uses Isolation Forest algorithm to detect outliers on timeseries. From your dataframe select column on which you want to apply algorithm. The result will be a plot with both inliers(red) and outliers (blue).
+This plugin uses Isolation Forest algorithm to detect outliers in timeseries. From your dataframe select column on which you want to apply algorithm. The result will be a plot with both inliers(red) and outliers (blue).
 
 Principal Component Analysis (PCA)
 
