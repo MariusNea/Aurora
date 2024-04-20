@@ -67,19 +67,19 @@ Make sure you have Python >=3.9 installed
    ```
 The process commences with your .csv file containing the requisite information, which is initially imported as a dataframe into AURORA. Subsequently, all models are applied based on this dataframe.
 
-Structuring the Dataframe for plugins
+<h4>Structuring the Dataframe for plugins</h4>
 
 Every plugin comes with its own documentation except the core plugins which are described here.
 
-Regression Algorithms
+<h5>Regression Algorithms</h5>
 
 Within the dataframe, all columns except the last one function as features, while the final column represents the predicted variable. The Linear Regression algorithm can accommodate any type of numerical data in the predicted column, whereas Logistic Regression and Decision Trees are suitable for categorical data.
 
-Mann-Whitney U Test
+<h5>Mann-Whitney U Test</h5>
 
 This test is conducted between two consecutive columns in the dataframe. For instance, if there are four columns named data_1, data_2, data_3, and data_4, the Mann-Whitney U Test is performed between data_1 and data_2, and then between data_3 and data_4, respectively. Consequently, the dataframe must have an even number of columns.
 
-ANOVA
+<h5>ANOVA</h5>
 
 Firs column of the dataframe must contain your tests categories. All other column must be numeric and represents the results of your tests. If your dataframe contains cells without values, AURORA will clean it automatically.
 
@@ -97,11 +97,11 @@ CSV example:
 ...
 
 
-Outliers (Anomaly) Detection
+<h5>Outliers (Anomaly) Detection</h5>
 
 This plugin uses Isolation Forest algorithm to detect outliers in timeseries. From your dataframe select column on which you want to apply algorithm. The result will be a plot with both inliers(red) and outliers (blue).
 
-Principal Component Analysis (PCA)
+<h5>Principal Component Analysis (PCA)</h5>
 
 To apply this plugin on your dataframe, the last column must be the target column and others columns must be features columns. The output will be a .csv file with components.
 
