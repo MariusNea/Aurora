@@ -7,7 +7,7 @@
   <a href="https://github.com/MariusNea/Aurora">
     <img src="images/logo.png" alt="Logo" width="128" height="128">
   </a>
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
   <h3 align="center">Aurora</h3>
 
   <p align="center">
