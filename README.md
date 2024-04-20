@@ -25,7 +25,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://mariusneagoe.com)
-[![Product Name Screen Shot][[product-screenshot2]](https://mariusneagoe.com)
+[![Product Name Screen Shot Second][[product-screenshot2]](https://mariusneagoe.com)
 
 In today's world, the fields of statistics and machine learning hold immense potential for solving real-world problems and significantly impacting businesses and daily life. However, the complexity and learning curve associated with these fields can be daunting, making it challenging for those interested to effectively utilize these tools. Recognizing this gap, we've developed AURORA, a software solution crafted to make the power of statistical and machine learning models more accessible to everyone.
 
