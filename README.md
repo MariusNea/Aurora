@@ -1,6 +1,4 @@
-
 <a name="readme-top"></a>
-[![MIT License][license-shield]][license-url]
 
 
 <!-- PROJECT LOGO -->
@@ -31,17 +29,16 @@
 
 In today's world, the fields of statistics and machine learning hold immense potential for solving real-world problems and significantly impacting businesses and daily life. However, the complexity and learning curve associated with these fields can be daunting, making it challenging for those interested to effectively utilize these tools. Recognizing this gap, we've developed AURORA, a software solution crafted to make the power of statistical and machine learning models more accessible to everyone.
 
-AURORA is designed with the principle that tools that are capable of addressing a diverse range of problems should be within reach of anyone interested in applying scientific methods to their decision-making processes. Our aim is to remove the barriers posed by the need for specialized training, making it easier for individuals to leverage these models in their activities.Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
+AURORA is designed with the principle that tools that are capable of addressing a diverse range of problems should be within reach of anyone interested in applying scientific methods to their decision-making processes. Our aim is to remove the barriers posed by the need for specialized training, making it easier for individuals to leverage these models in their activities.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
 
-* [![Matplotlib][Matplotlib]]
-* [![Pandas][Pandas]]
-* [![Scikit-learn][scikit-learn]]
+* ![Matplotlib][Matplotlib]
+* ![Pandas][Pandas]
+* ![Scikit-learn][scikit-learn]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +104,7 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-For contributing to the project follow steps described <p>(<a href="https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project">HERE</a>)</p> 
+For contributing to the project follow steps described <a href="https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project">HERE</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +122,7 @@ Distributed under the GPL-2.0 License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Find more <p>(<a href="https://mariusneagoe.com">HERE</a>)</p> 
+Find more <a href="https://mariusneagoe.com">HERE</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
