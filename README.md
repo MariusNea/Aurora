@@ -86,8 +86,8 @@ Firs column of the dataframe must contain your tests categories. All other colum
 For a practical example, let's consider a scenario where a researcher wants to analyze the impact of three different types of fertilizer on the growth of plants. The researcher has three groups of plants, each group receiving a different type of fertilizer. The goal is to see if there's a significant difference in the growth of plants (measured in height) across these groups.
 
 CSV example:
- |Fertilizer_Type | Height_After_1_Month | Height_After_2_Months | Height_After_3_Months |
- |----------------------------------------------------------------------------------------|
+ |No   |     Fertilizer_Type | Height_After_1_Month | Height_After_2_Months | Height_After_3_Months |
+ |-----|---------------------|---------------------|------------------------|-----------------------|
 | 0    |     Type_A          |         5.1         |            7.2         |           9.8 |
 | 1    |     Type_B          |         4.8         |            7.0         |          10.1 |
 | 2    |     Type_C          |         5.3         |            7.9         |          10.5 |
