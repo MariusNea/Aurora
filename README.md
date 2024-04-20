@@ -7,7 +7,7 @@
   <a href="https://github.com/MariusNea/Aurora">
     <img src="images/logo.png" alt="Logo" width="128" height="128">
   </a>
-![Python][Python]
+
   <h3 align="center">Aurora</h3>
 
   <p align="center">
@@ -19,7 +19,7 @@
   </p>
 </div>
 
-
+![Python][Python]
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
