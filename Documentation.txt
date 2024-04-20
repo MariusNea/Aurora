@@ -1,20 +1,4 @@
-AURORA - Accessible User-friendly Resources for model Optimization using Refined Algorithms
-
-In today's world, the fields of statistics and machine learning hold immense potential for solving real-world problems and significantly impacting businesses and daily life. However, the complexity and learning curve associated with these fields can be daunting, making it challenging for those interested to effectively utilize these tools. Recognizing this gap, we've developed AURORA, a software solution crafted to make the power of statistical and machine learning models more accessible to everyone.
-
-AURORA is designed with the principle that tools that are capable of addressing a diverse range of problems should be within reach of anyone interested in applying scientific methods to their decision-making processes. Our aim is to remove the barriers posed by the need for specialized training, making it easier for individuals to leverage these models in their activities.
-
-Install
-
-Clone this repository or Download zip with project files
-
-CLI:
-pip install -r requirements.txt
-
-Launch Aurora
-
-CLI:
-python -m Aurora
+AURORA - Problem solving focused statistical and machine learning software toolkit. 
 
 The process commences with your .csv file containing the requisite information, which is initially imported as a dataframe into AURORA. Subsequently, all models are applied based on this dataframe.
 
@@ -49,7 +33,7 @@ CSV example:
 
 Outliers (Anomaly) Detection
 
-This plugin uses Isolation Forest algorithm to detect outliers on timeseries. From your dataframe select column on which you want to apply algorithm. The result will be a plot with both inliers(red) and outliers (blue).
+This plugin uses Isolation Forest algorithm to detect outliers in timeseries. From your dataframe select column on which you want to apply algorithm. The result will be a plot with both inliers(red) and outliers (blue).
 
 Principal Component Analysis (PCA)
 
@@ -64,6 +48,3 @@ The plugins folder contains all free plugins along with one example plugin for f
 Please check example_plugin_a.py for instructions regarding plugin development.
 
 Everyone is encouraged to contribute with plugins as this will help AURORA to reach its mission, to become the most comprehensive collection of Statistics and Machine Learning tools available for everyone, for free.
-
-
-For publishing a plugin please check https://mariusneagoe.com/plugins/
