@@ -105,7 +105,7 @@ This plugin uses Isolation Forest algorithm to detect outliers in timeseries. Fr
 
 To apply this plugin on your dataframe, the last column must be the target column and others columns must be features columns. The output will be a .csv file with components.
 
-Screenshots from main GUI
+<h4>Screenshots from main GUI</h4>
 
 ![Product Name Screen Shot][product-screenshot]
 ![Product Name Screen Shot2][product-screenshot2]
