@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-
+![Python][Python]
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -19,7 +19,7 @@
   </p>
 </div>
 
-![Python][Python]
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
