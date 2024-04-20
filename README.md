@@ -7,7 +7,7 @@
   <a href="https://github.com/MariusNea/Aurora">
     <img src="images/logo.png" alt="Logo" width="128" height="128">
   </a>
-![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+![Made-with-python][Python]
   <h3 align="center">Aurora</h3>
 
   <p align="center">
@@ -176,3 +176,4 @@ Find more <a href="https://mariusneagoe.com">here</a>
 [Matplotlib]: https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
 [Pandas]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
 [scikit-learn]: https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white
+[Python]: http://ForTheBadge.com/images/badges/made-with-python.svg
