@@ -129,10 +129,9 @@ To apply this plugin on your dataframe, the last column must be the target colum
 - [x] Implement Poisson Probabilities
 - [x] Implement Anomaly (Outliers) Detection
 - [x] Implement Principal Component Analysis
-- [ ] Implement Interactive Web Scraper
-- [ ] Implement Automated Model Selector 
+- [ ] Implement Interactive Web Scraper 
 - [ ] Implement Support Vector Machines
-
+- [ ] Implement Automated Model Selector
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
