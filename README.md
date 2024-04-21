@@ -164,8 +164,8 @@ Distributed under the GPL-2.0 License. See `LICENSE.txt` for more information.
 
 Find more <a href="https://mariusneagoe.com">here</a>
 
+Show your support <a href="https://buymeacoffee.com/mariussorid">here</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 
