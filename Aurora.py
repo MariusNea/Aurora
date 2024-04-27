@@ -3,7 +3,7 @@
 
 #####################################################
 #### Package: Aurora
-#### Version: 0.1
+#### Version: 0.2
 #### Author: Marius Neagoe
 #### Copyright: © 2024 Marius Neagoe
 #### Website: https://mariusneagoe.com
@@ -126,11 +126,16 @@ class DataFrameEditor:
             self.tree.insert('', 'end', values=list(row))
 
     def add_pagination_controls(self):
+        button_style = {"background": "#4CAF50",  # Green background color
+                "foreground": "white",    # White text color
+                "font": ("Arial", 12),    # Font and size
+                "borderwidth": 2,         # Border width
+                "relief": "groove"}
         pagination_frame = tk.Frame(self.root)
         pagination_frame.pack(fill='x', padx=5, pady=5)
-        prev_button = tk.Button(pagination_frame, text="Previous", command=self.prev_page)
+        prev_button = tk.Button(pagination_frame, text="Previous", command=self.prev_page, **button_style)
         prev_button.pack(side='left')
-        next_button = tk.Button(pagination_frame, text="Next", command=self.next_page)
+        next_button = tk.Button(pagination_frame, text="Next", command=self.next_page, **button_style)
         next_button.pack(side='left')
 
     def prev_page(self):
@@ -563,9 +568,7 @@ def load_plugins(directory: str, app):
             # Check if the module has a register function and call it with the app instance
             if hasattr(module, 'register'):
                 module.register(app)        
-        
-        
-    
+   
 
 if __name__ == "__main__":
     root = tk.Tk()
