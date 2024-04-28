@@ -42,7 +42,7 @@ def evaluate_model(model, X_test, y_test):
 
 def create_gui(df):
     window = tk.Tk()
-    window.title("SVM Classifier with Synthetic Data")
+    window.title("SVM Classifier")
 
     # Determine initial values for features and target from DataFrame
     initial_features = ", ".join(df.columns[:-1])  # All columns except the last one
