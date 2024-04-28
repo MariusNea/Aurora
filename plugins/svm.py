@@ -107,7 +107,7 @@ def create_gui(df):
         else:
             messagebox.showerror("Error", "Model is not trained yet. Please train the model first.")
 
-    btn_run = tk.Button(window, text="Run SVM", command=get_input)
+    btn_run = tk.Button(window, text="Train SVM", command=get_input)
     btn_run.pack(pady=10)
 
     btn_predict = tk.Button(window, text="Make Prediction", command=make_prediction)
