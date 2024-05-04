@@ -130,7 +130,7 @@ To apply this plugin on your dataframe, the last column must be the target colum
 - [x] Implement Anomaly (Outliers) Detection
 - [x] Implement Principal Component Analysis
 - [x] Implement Support Vector Machines
-- [x] Implement Unsupervised Learning (KNN)
+- [x] Implement K-Nearest Neighbors
 - [ ] Implement Interactive Web Scraper
 - [ ] Implement Automated Model Selector
 
