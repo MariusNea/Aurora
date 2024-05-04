@@ -83,7 +83,7 @@ class KNNApp:
 
 
 def register(app):
-    @app.register_plugin('machine_learning', 'knn', 'Unsupervised Learning (KNN)')
+    @app.register_plugin('machine_learning', 'knn', 'K-Nearest Neighbors')
     def knn():
         datas = app.get_dataframe()
         root = tk.Tk()
