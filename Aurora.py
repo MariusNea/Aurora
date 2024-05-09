@@ -28,7 +28,7 @@ from tkinter import Label, Entry, Button
 from PIL import Image, ImageTk
 from io import BytesIO
 from matplotlib.widgets import RectangleSelector
-
+from sklearn.preprocessing import LabelEncoder
 
 
 class DataFrameEditor:
@@ -178,6 +178,10 @@ class DataFrameEditor:
         
         save_button = tk.Button(self.root, text="Save Dataframe", command=self.save_df)
         save_button.pack(side='right')
+        
+        encode_button = tk.Button(self.root, text="Label Encode", command=self.encode_labels)
+        encode_button.pack(side='right')
+        
         
         self.tree.bind('<Double-1>', self.on_item_double_click)
         
@@ -507,8 +511,23 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
                     print(f"Index {df_index} is out of bounds for the DataFrame.")
             except IndexError as e:
                 print(f"Error updating cell: {e}")
-
-
+    
+    
+    def encode_labels(self):
+        categ_col = simpledialog.askstring("Input", f"Enter column name for Label Encoding:")
+        # Check if the column exists in the dataframe
+        if categ_col not in self.dataframe.columns:
+            raise ValueError(f"The column '{categ_col}' does not exist in the dataframe.")
+    
+        # Initialize the LabelEncoder
+        le = LabelEncoder()
+    
+        # Fit and transform the data in the column
+        self.dataframe[categ_col] = le.fit_transform(self.dataframe[categ_col])
+    
+        return self.dataframe   
+    
+    
     def add_row(self):
         new_row_index = len(self.dataframe)  # Next row index
         self.dataframe.loc[new_row_index] = [None] * len(self.dataframe.columns)  # Initialize new row with None or suitable defaults
