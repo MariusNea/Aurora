@@ -131,6 +131,7 @@ To apply this plugin on your dataframe, the last column must be the target colum
 - [x] Implement Principal Component Analysis
 - [x] Implement Support Vector Machines
 - [x] Implement K-Nearest Neighbors
+- [x] Implement K-Means
 - [ ] Implement Interactive Web Scraper
 - [ ] Implement Automated Model Selector
 
