@@ -132,6 +132,8 @@ To apply this plugin on your dataframe, the last column must be the target colum
 - [x] Implement Support Vector Machines
 - [x] Implement K-Nearest Neighbors
 - [x] Implement K-Means
+- [x] Implement Histogram
+- [x] Implement Text Classifier
 - [ ] Implement Interactive Web Scraper
 - [ ] Implement Automated Model Selector
 
