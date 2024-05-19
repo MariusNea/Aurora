@@ -40,6 +40,6 @@ def plot_histogram(df):
 def register(app):
     @app.register_plugin('statistics', 'histogram', 'Histogram')
     def histogram():
-        datah = app.get_dataframe()
+        histogram_data = app.get_dataframe()
 
-        plot_histogram(datah)
+        plot_histogram(histogram_data)
