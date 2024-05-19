@@ -603,7 +603,7 @@ if __name__ == "__main__":
         quit()
     try:
         # Load the initial CSV file into a DataFrame
-        initial_df = pd.read_csv(initial_file_path)
+        initial_df = pd.read_csv(initial_file_path, engine='python')
     except Exception as e:
         messagebox.showerror("Error", f"Error loading initial CSV file: {e}")
         root.destroy()  # destroy the root window in case of an error
