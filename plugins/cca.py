@@ -79,9 +79,9 @@ def plot_first_pair_canonical_variables(U, V):
 def register(app):
     @app.register_plugin('statistics', 'cca', 'Canonical Correlation Analysis')
     def cca():
-        data = app.get_dataframe()
+        data_cor = app.get_dataframe()
 		# You can add your code here
-        canonical_correlations, U, V = canonical_correlation_analysis(data)
+        canonical_correlations, U, V = canonical_correlation_analysis(data_cor)
         print("Canonical Correlations:", canonical_correlations)
         print(U)
         print(V)
