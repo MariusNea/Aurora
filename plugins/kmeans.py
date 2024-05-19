@@ -1,3 +1,13 @@
+#####################################################
+#### Package: Aurora
+#### Plugin: K-Means
+#### Version: 0.1
+#### Author: Marius Neagoe
+#### Copyright: © 2024 Marius Neagoe
+#### Website: https://mariusneagoe.com
+#### Github: https://github.com/MariusNea/Aurora
+#####################################################
+
 import tkinter as tk
 from tkinter import ttk, scrolledtext
 from sklearn.cluster import KMeans

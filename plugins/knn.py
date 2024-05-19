@@ -1,3 +1,14 @@
+#####################################################
+#### Package: Aurora
+#### Plugin: K Nearest Neighbors
+#### Version: 0.1
+#### Author: Marius Neagoe
+#### Copyright: © 2024 Marius Neagoe
+#### Website: https://mariusneagoe.com
+#### Github: https://github.com/MariusNea/Aurora
+#####################################################
+
+
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 import pandas as pd
