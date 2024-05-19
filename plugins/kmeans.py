@@ -106,7 +106,7 @@ def create_gui(data):
     root.mainloop()
 
 def register(app):
-    @app.register_plugin('machine_learning', 'kmeans', 'Unsupervised Learning (K-Means)')
+    @app.register_plugin('machine_learning', 'kmeans', 'Unsupervised Learning (K Means)')
     def kmeans():
         dateq = app.get_dataframe()
         # Preprocess data: scaling
