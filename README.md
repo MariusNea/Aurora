@@ -134,6 +134,7 @@ To apply this plugin on your dataframe, the last column must be the target colum
 - [x] Implement K-Means
 - [x] Implement Histogram
 - [x] Implement Text Classifier
+- [x] Implement Denoising Autoencoder
 - [ ] Implement Interactive Web Scraper
 - [ ] Implement Automated Model Selector
 
