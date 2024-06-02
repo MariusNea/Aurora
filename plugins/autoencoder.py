@@ -149,7 +149,7 @@ def run_gui(dataframe=None):
 
 
 def register(app):
-    @app.register_plugin('machine_learning', 'ae', 'Autoencoder')
+    @app.register_plugin('machine_learning', 'ae', 'Denoising Autoencoder')
     def ae():
         dataae = app.get_dataframe()
         run_gui(dataae)
