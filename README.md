@@ -27,6 +27,12 @@
 In today's world, the fields of statistics and machine learning hold immense potential for solving real-world problems and significantly impacting businesses and daily life. However, the complexity and learning curve associated with these fields can be daunting, making it challenging for those interested to effectively utilize these tools. Recognizing this gap, we've developed AURORA, a software solution crafted to make the power of statistical and machine learning models more accessible to everyone.
 
 AURORA is designed with the principle that tools that are capable of addressing a diverse range of problems should be within reach of anyone interested in applying scientific methods to their decision-making processes. Our aim is to remove the barriers posed by the need for specialized training, making it easier for individuals to leverage these models in their activities.
+
+Aurora comprises three main components:
+
+1. **Algorithms Component**: This section encompasses various algorithms essential to Aurora's functionality.
+2. **Data Gathering Module**: This module is responsible for collecting data from multiple sources, including web scraping tools.
+3. **Automated Problem Solver Module**: Utilizing Natural Language Processing, this module assists users in navigating and applying Aurora's capabilities to address their specific issues effectively.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Examples
