@@ -31,7 +31,11 @@ AURORA is designed with the principle that tools that are capable of addressing 
 
 ### Examples
 
+Using Text Classifier from Aurora to predict if a message is spam or not
+
 [![Watch the video](https://img.youtube.com/vi/ntX30JjQB8M/0.jpg)](https://www.youtube.com/watch?v=ntX30JjQB8M)
+
+Predict employee churn using AURORA
 
 [![Watch the video](https://img.youtube.com/vi/fY1UBiRSwLg/0.jpg)](https://www.youtube.com/watch?v=fY1UBiRSwLg)
 
