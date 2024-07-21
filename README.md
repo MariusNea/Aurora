@@ -29,7 +29,11 @@ In today's world, the fields of statistics and machine learning hold immense pot
 AURORA is designed with the principle that tools that are capable of addressing a diverse range of problems should be within reach of anyone interested in applying scientific methods to their decision-making processes. Our aim is to remove the barriers posed by the need for specialized training, making it easier for individuals to leverage these models in their activities.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Examples
 
+[![Watch the video](https://img.youtube.com/vi/ntX30JjQB8M/0.jpg)](https://www.youtube.com/watch?v=ntX30JjQB8M)
+
+[![Watch the video](https://img.youtube.com/vi/fY1UBiRSwLg/0.jpg)](https://www.youtube.com/watch?v=fY1UBiRSwLg)
 
 ### Built With
 
@@ -135,8 +139,10 @@ To apply this plugin on your dataframe, the last column must be the target colum
 - [x] Implement Histogram
 - [x] Implement Text Classifier
 - [x] Implement Denoising Autoencoder
+- [ ] Implement Monte Carlo Simulation
 - [ ] Implement Interactive Web Scraper
-- [ ] Implement Automated Model Selector
+- [ ] Develop multiple methods for interactive data gathering 
+- [ ] Implement Automated Problem Solver
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
