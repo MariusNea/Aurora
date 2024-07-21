@@ -32,7 +32,7 @@ Aurora comprises three main components:
 
 1. **Algorithms Component**: This section encompasses various algorithms essential to Aurora's functionality.
 2. **Data Gathering Module**: This module is responsible for collecting data from multiple sources, including web scraping tools.
-3. **Automated Problem Solver Module**: Utilizing Natural Language Processing, this module assists users in navigating and applying Aurora's capabilities to address their specific issues effectively.
+3. **Automated Problem Solver Module**: Utilizing Natural Language Processing, this module assists users in navigating and applying interactively Aurora's capabilities to address their specific issues effectively.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Examples
