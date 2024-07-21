@@ -31,9 +31,9 @@ AURORA is designed with the principle that tools that are capable of addressing 
 
 ### Examples
 
-[![Watch the video](https://img.youtube.com/vi/ntX30JjQB8M/1.jpg)](https://www.youtube.com/watch?v=ntX30JjQB8M)
+[![Watch the video](https://img.youtube.com/vi/ntX30JjQB8M/0.jpg)](https://www.youtube.com/watch?v=ntX30JjQB8M)
 
-[![Watch the video](https://img.youtube.com/vi/fY1UBiRSwLg/1.jpg)](https://www.youtube.com/watch?v=fY1UBiRSwLg)
+[![Watch the video](https://img.youtube.com/vi/fY1UBiRSwLg/0.jpg)](https://www.youtube.com/watch?v=fY1UBiRSwLg)
 
 ### Built With
 
