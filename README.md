@@ -174,7 +174,7 @@ For contributing to the project follow steps described <a href="https://docs.git
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPL-2.0 License. See `LICENSE.txt` for more information.
+This project is dual licensed. Distributed under the GPL-2.0 license and a commercial license. See `LICENSE.txt` for GPL-2.0.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
