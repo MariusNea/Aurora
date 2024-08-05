@@ -129,7 +129,7 @@ To apply this plugin on your dataframe, the last column must be the target colum
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Implement Plot & Brush
+- [x] Implement Plot & CrossSelect
 - [x] Implement Dataframe Edit 
 - [x] Implement Dataframe Pagination for fast loading
 - [x] Implement Linear Regression
@@ -149,6 +149,8 @@ To apply this plugin on your dataframe, the last column must be the target colum
 - [x] Implement Histogram
 - [x] Implement Text Classifier
 - [x] Implement Denoising Autoencoder
+- [x] Implement XGBoost (Regression and Classification)
+- [x] Implement Pearson Correlation
 - [ ] Implement Monte Carlo Simulation
 - [ ] Implement Interactive Web Scraper
 - [ ] Develop multiple methods for interactive data gathering 
