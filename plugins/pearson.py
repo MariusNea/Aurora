@@ -1,3 +1,13 @@
+#####################################################
+#### Package: Aurora
+#### Plugin: Pearson correlation
+#### Version: 0.1
+#### Author: Marius Neagoe
+#### Copyright: © 2024 Marius Neagoe
+#### Website: https://mariusneagoe.com
+#### Github: https://github.com/MariusNea/Aurora
+#####################################################
+
 import pandas as pd
 import numpy as np
 import tkinter as tk
