@@ -1,3 +1,13 @@
+#####################################################
+#### Package: Aurora
+#### Plugin: XGBoost (Regression and Classification)
+#### Version: 0.1
+#### Author: Marius Neagoe
+#### Copyright: © 2024 Marius Neagoe
+#### Website: https://mariusneagoe.com
+#### Github: https://github.com/MariusNea/Aurora
+#####################################################
+
 import pandas as pd
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
